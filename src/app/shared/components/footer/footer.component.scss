@@ -1,8 +1,0 @@
-@import '~@angular/material/theming';
-@include mat-core();
-$primary: mat-palette($mat-orange,900);
-footer{
-    background-color: mat-color($primary);
-    padding: 20px 0px;
-  margin-top: 10px;
-}
