@@ -1,0 +1,37 @@
+<header>
+    <mat-toolbar color="accent" class="header-toolbar" >
+       
+        <mat-toolbar-row >
+            
+                <div class="row center-xs ">
+                    <nav>
+                        <a mat-button routerLink="/home"    routerLinkActive="active">
+                            Home
+                        </a>
+                        <a mat-button  routerLink="/herramientas-electricas" routerLinkActive="active">
+                            Herramientas Eléctricas
+                        </a>
+                        <a mat-button  routerLinkActive="active">
+                            Escaleras
+                        </a>
+                        <a mat-button  routerLinkActive="active">
+                            Cerrajería
+                        </a>
+                        <a mat-button  routerLinkActive="active">
+                            Carpintería
+                        </a>
+                        <a mat-button  routerLinkActive="active">
+                            Construcción
+                        </a>
+                        <a mat-raised-button [matBadge]="total" matBadgeColor="primary">
+                            <mat-icon>shopping_cart</mat-icon>
+                            Carrito
+                          </a>
+                    </nav>
+                   
+                    
+                </div>
+            
+        </mat-toolbar-row>
+    </mat-toolbar>
+    </header>

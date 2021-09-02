@@ -1,0 +1,16 @@
+<mat-card class="cards">
+    <mat-card-header>
+      <mat-card-title>{{ categorias.title | uppercase }}</mat-card-title>
+      <mat-card-subtitle>{{ 900 | currency }}</mat-card-subtitle>
+    </mat-card-header>
+   
+      <img [src]="categorias.image" alt=""  mat-card-image>
+   
+    <mat-card-content>
+      <p>{{ categorias.description }}</p>
+    </mat-card-content>
+    <mat-card-actions>
+      
+      <button  mat-raised-button color="primary">Ir a categoría</button>
+    </mat-card-actions>
+  </mat-card>
